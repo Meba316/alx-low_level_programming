@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ *_strlen - length of a string
+ *@s: A pointer to an int that will be changed/uppdated
+ *
+ *Return: void thatmeas answer is correct
+ */
+
+int_ _strlen(char *s)
+{
+	int u;
+
+	u = 0;
+	while(s[u] != '\n')
+	{
+		u++;
+	}
+	return (u);
+}
