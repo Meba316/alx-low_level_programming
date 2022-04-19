@@ -7,7 +7,7 @@
  *Return: void thatmeas answer is correct
  */
 
-int_ _strlen(char *s)
+int _strlen(char *s)
 {
 	int u;
 
